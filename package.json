@@ -1,0 +1,29 @@
+{
+  "name": "ProfitFlip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.6.1",
+  "devDependencies": {
+    "@chainlink/contracts": "^1.3.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.19",
+    "hardhat-abi-exporter": "^2.10.1",
+    "hardhat-contract-sizer": "^2.10.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@arbitrum/nitro-contracts",
+      "keccak",
+      "secp256k1"
+    ]
+  }
+}
