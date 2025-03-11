@@ -33,4 +33,9 @@ module.exports = {
     clear: true,
     flat: false,
   },
+  etherscan: {
+    apiKey: {
+      polygonAmoy: process.env.AMOY_API_KEY,
+    }
+  },
 };

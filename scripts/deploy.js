@@ -4,7 +4,7 @@ async function main() {
   const [deployer] = await ethers.getSigners();
   console.log("Deploying contract with account:", deployer.address);
 
-  const Contract = await ethers.getContractFactory("PancakePredictionV2");
+  const Contract = await ethers.getContractFactory("ProfitFlip");
   
   // Replace below with the required constructor arguments.
   const contract = await Contract.deploy(
