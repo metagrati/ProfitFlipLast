@@ -20,7 +20,7 @@ class RoundInfo extends HTMLElement {
       const closePrice = this.getAttribute('close-price') || 'N/A';
       const totalAmount = this.getAttribute('total-amount') || '0';
   
-      this.innerHTML = `
+      this.shadowRoot.innerHTML = `
         <style>
           .round-container {
             display: grid;

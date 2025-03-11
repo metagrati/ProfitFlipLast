@@ -15,7 +15,7 @@ class ContractInfo extends HTMLElement {
     const address = this.getAttribute('address') || 'Loading...';
     const owner = this.getAttribute('owner') || 'Loading...';
 
-    this.innerHTML = `
+    this.shadowRoot.innerHTML = `
       <style>
         .container {
           display: grid;
