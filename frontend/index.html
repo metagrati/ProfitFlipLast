@@ -1,12 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>ProfitFlip Contract</title>
-    <script type="module" src="/src/main.js"></script>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+  <title>ProfitFlip Prediction Game</title>
+  <style>
+    /* Reset + Box Sizing */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Layout */
+    body {
+      background: #f7f9fc;
+      /* soft light background */
+      font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    /* Header Bar */
+    header {
+      background: #ffffff;
+      padding: 16px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #444;
+    }
+
+    /* Main Container for the Cards */
+    .container {
+      display: flex;
+      flex-direction: row;
+      gap: 30px;
+      justify-content: center;
+      align-items: flex-start;
+      max-width: 900px;
+      margin: 40px auto;
+      /* centers the container horizontally */
+      padding: 0 20px;
+      /* small horizontal padding for mobile */
+    }
+  </style>
+  <script type="module" src="/src/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>ProfitFlip Prediction Game</h1>
+  </header>
+  <div class="container">
     <contract-info></contract-info>
     <round-info></round-info>
-  </body>
+  </div>
+</body>
+
 </html>

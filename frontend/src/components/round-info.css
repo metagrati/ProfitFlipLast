@@ -1,0 +1,78 @@
+:host {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+  width: 100%;
+}
+
+.round-info-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.07);
+  padding: 24px 28px;
+  width: 420px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
+}
+
+.round-info-container:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.09);
+}
+
+.title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.info-section {
+  margin-bottom: 16px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.label {
+  font-weight: 600;
+  color: #444;
+}
+
+.value {
+  font-size: 0.95rem;
+  color: #2c2c2c;
+  font-weight: 500;
+  text-align: right;
+}
+
+.total-value {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #000;
+}
+
+.price-up {
+  color: #28a745;
+  font-weight: 700;
+}
+
+.price-down {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.price-neutral {
+  color: #888;
+  font-weight: 700;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #eee;
+  margin: 14px 0;
+}
